@@ -37,7 +37,7 @@
             <input
               type="text"
               class="form-control"
-              value="{{ visitante.horario_autorizacao }}"
+              value="{{ visitante.get_horario_autorizacao }}"
               disabled
             />
           </div>
@@ -47,7 +47,7 @@
             <input
               type="text"
               class="form-control"
-              value="{{ visitante.morador_responsavel }}"
+              value="{{ visitante.get_morador_responsavel }}"
               disabled
             />
           </div>
@@ -57,7 +57,7 @@
             <input
               type="text"
               class="form-control"
-              value="{{ visitante.horario_saida }}"
+              value="{{ visitante.get_horario_saida }}"
               disabled
             />
           </div>
@@ -105,7 +105,7 @@
             <input
               type="text"
               class="form-control"
-              value="{{ visitante.placa_veiculo }}"
+              value="{{ visitante.get_placa_veiculo }}"
               disabled
             />
           </div>
